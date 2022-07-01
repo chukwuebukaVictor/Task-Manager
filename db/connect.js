@@ -1,10 +1,10 @@
 const mongoose = require('mongoose') 
 
-const connectionString = 'mongodb+srv://Chukwuebuka:Buckyvicky@nodeexpressprojects.nbnlu.mongodb.net/Task-Manager?retryWrites=true&w=majority'
+// const connectionString = ''
 
 
 const connectDB = (url) =>{
-  return mongoose.connect(connectionString)
+  return mongoose.connect(url)
 
 }
 // .then(()=>console.log('CONNECTED TO THE DB ...'))
